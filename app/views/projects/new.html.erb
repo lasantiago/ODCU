@@ -1,0 +1,26 @@
+<div class='container' id='main'>
+	<div id='surveyor'>
+		<div class='container survey-intro'>
+			<div class='well'>
+				<div class='row-fluid'>
+					<div class='span12 lead'>
+						<p>This forms allow you to generates an open data user certificate and badge you can publish to tell people all about your open data project. We also use this information to match the used datasets with published datasets on the Open Data Institute Directory.</p>
+
+						<p>This information will allow ODI to create an international directory of providers and users of open data with associated URLs and data descriptions.</p>
+
+						<p>Governments, companies, nonprofits, and others will be able to find data sources, their uses, and vendors who have experience working with different types of data in particular domains.</p>
+
+						<p>
+							<a href='/about'>Read more about Open Data User Certificates</a>
+						</p>
+					</div>
+				</div>
+
+				<h2>Please fill all required information to generate a user certificate</h2>
+				<%= render 'form' %>
+
+				<%= link_to 'Back', projects_path %>
+			</div>
+		</div>
+	</div>
+</div>

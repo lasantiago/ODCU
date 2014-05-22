@@ -1,0 +1,78 @@
+<div class='whiteout'>
+	<div id='empty'></div>
+	<header class='home'>
+		<div class='container'>
+			<div class='row'>
+				<div class='span12'>
+					<h1>How it works</h1>
+				</div>
+			</div>
+			<div class='row steps'>
+				<div class='span4'>
+					<h2>
+						1
+						<small>Publish your project</small>
+					</h2>
+					<p>Good news! You've already done this bit (or you're about to). Now let's make your data easier for people to find, use and share.</p>
+
+				</div>
+
+				<div class='span4'>
+					<h2>
+						2
+						<small>Check it with our questionnaire</small>
+					</h2>
+					<p>Our helpful questions act like a checklist. They explain your options about how to publish good open data and give you clear and recognised targets to aim for.</p>
+				</div>
+
+				<div class='span4 last'>
+					<h2>
+						3
+						<small>Share it with a certificate</small>
+					</h2>
+					<p>Your answers determine which of our four certificates you generate. Each one means success in a unique way and demonstrates you are a leader in open data.</p>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class='container' id='main'>
+		<div class='home-header-buttons'>
+			<div class='row'>
+
+				<div class='span4'>
+					<p class='logo'>ODI</p>
+				</div>
+				<div class='span4'>
+						<%= link_to 'Create new user certificate', new_project_path, class: "btn btn-large btn-primary" %> 
+					<!--<a href="/projects#new"  data-toggle="modal" role="button">Create a user certificate</a>-->
+				</div>
+				<div class='span4'>
+					<a href="/datasets" class="btn btn-large btn-primary">Browse certificates</a>
+				</div>
+			</div>
+		</div>
+		<div class='main'>
+			<div class='row'>
+				<div class='span6'>
+					<div class='video-container'>
+						<iframe allowfullscreen='allowfullscreen' frameborder='0' height='315' src='https://www.youtube.com/embed/_k5pQxeQq9w' width='560'></iframe>
+					</div>
+				</div>
+				<div class='span6 homepage-about-content'>
+					<h2 class='about-certificate'>
+						<a href="/about">What does a certificate look like?</a>
+					</h2>
+					<p class='about-certificate'>It's a badge that links to a description of your open data. The description explores things like how often it's updated, what format it's in, who and where it came from.</p>
+					<a href="/about" class="about-certificate">Find out more</a>
+
+					<h2 class='about-odi'>
+						<a href="/contact">Who are the ODI?</a>
+					</h2>
+					<p class='about-odi'>We're the <a href="http://theodi.org">Open Data Institute</a>. We help people unlock supply and demand for open data and share this value with everyone.</p>
+					<a href="/contact" class="about-odi">Get in touch</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
