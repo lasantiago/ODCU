@@ -1,19 +1,27 @@
-<p id="notice"><%= notice %></p>
+<div class='container' id='main'>
+	<div id='surveyor'>
+		<div class='container survey-intro'>
+			<div class='well'>
+				<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @project.name %>
-</p>
+				<p>
+					<strong>Name:</strong>
+					<%= @project.name %>
+				</p>
 
-<p>
-  <strong>Description:</strong>
-  <%= @project.description %>
-</p>
+				<p>
+					<strong>Description:</strong>
+					<%= @project.description %>
+				</p>
 
-<p>
-  <strong>Url:</strong>
-  <%= @project.URL %>
-</p>
+				<p>
+					<strong>Url:</strong>
+					<%= @project.URL %>
+				</p>
 
-<%= link_to 'Edit', edit_project_path(@project) %> |
-<%= link_to 'Back', projects_path %>
+				<%= link_to 'Edit', edit_project_path(@project) %> |
+				<%= link_to 'Back', projects_path %>
+			</div>
+		</div>
+	</div>
+</div>

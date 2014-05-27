@@ -26,3 +26,5 @@ test:
 production:
   <<: *default
   database: odcu_production
+  username: exzfxnpdankyhd
+  password: siiyxAXLsSz9YnuFa9jX_gVZK7
