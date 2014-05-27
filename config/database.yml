@@ -25,6 +25,7 @@ test:
 
 production:
   <<: *default
-  database: odcu_production
+  host: ec2-54-83-14-68.compute-1.amazonaws.com 
+  database: d7grkolsio3brm
   username: exzfxnpdankyhd
   password: siiyxAXLsSz9YnuFa9jX_gVZK7
