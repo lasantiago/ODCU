@@ -8,8 +8,6 @@ default: &default
   adapter: postgresql
   pool: 5
   timeout: 5000
-  username: root
-  password: P@$$w0rd
 
 development:
   <<: *default
@@ -21,7 +19,9 @@ development:
 test:
   <<: *default
   database: odcu_test
-  host: localhost
+  host: localhost 
+  username: postgres
+  password: P@$$w0rd
 
 production:
   <<: *default
