@@ -38,5 +38,11 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 gem 'rails_12factor', group: :production
-gem 'unicorn', group: :production
 
+platforms :ruby do # linux
+  gem 'unicorn', group: :production
+end
+
+platforms :mswin do
+  # gems specific to windows
+end
